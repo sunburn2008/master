@@ -1,5 +1,7 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class OrderPages {
 
@@ -103,4 +105,13 @@ public class OrderPages {
             webDriver.findElement(cookiesCloseButton).click();
         }
     }
+
+//    public void scrollPageFromBottomButton(By orderButtonOnMainPage) {
+//        if (!webDriver.findElement(orderButtonOnMainPageBottom).isDisplayed()) {
+//            WebElement element = webDriver.findElement(orderButtonOnMainPageBottom);
+//            ((JavascriptExecutor) webDriver).executeScript("arguments[0].scrollIntoView();", element);
+//        } else {
+//            clickToOrderButtonOnMainPage(orderButtonOnMainPage);
+//        }
+//    }
 }

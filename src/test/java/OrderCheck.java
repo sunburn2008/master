@@ -79,6 +79,7 @@ public class OrderCheck {
 
         homePage.open();
         orderPages.findCookiesField();
+//        orderPages.scrollPageFromBottomButton(orderButtonOnMainPage);
         orderPages.clickToOrderButtonOnMainPage(orderButtonOnMainPage);
         orderPages.sendValueToFirstName(name);
         orderPages.sendValueToSurname(surname);
