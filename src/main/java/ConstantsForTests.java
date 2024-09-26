@@ -18,6 +18,8 @@ public class ConstantsForTests {
     public static final String userName_2 = "Таран";
     public static final String userSurname_2 = "Иванов";
     public static final String userAddress_2 = "ул. Колотушкина, д. 0.5, кв. 0.15";
-    public static final String userPhoneNumber_2 = "8-800-2000-600";
+    public static final String userPhoneNumber_2 = "88002000600";
     public static final String commentForTheCourier_2 = "Kengroq qadam!";
+
+
 }
